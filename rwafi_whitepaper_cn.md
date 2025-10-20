@@ -1,7 +1,7 @@
 # RWA Yield Protocol Whitepaper
-Version 1.0
-Date: October 20, 2025
-Authors: TycheFi Labs
+- `Version`: 1.0
+- `Date`: October 20, 2025
+- `Authors`: TycheFi Labs
 
 ## Abstract
 ArtistYield RWA Protocol is a groundbreaking DeFi platform that bridges the gap between the creative arts industry and blockchain technology. By tokenizing artists' future revenue streams as Real World Assets (RWAs), the protocol enables decentralized funding for artists while providing investors with secure, yield-generating opportunities. Leveraging the platform's native SING token for fundraising and issuing GNIS credentials for participation, ArtistYield ensures transparent revenue sharing, minimum yield guarantees, and deflationary mechanics. This whitepaper outlines the protocol's architecture, tokenomics, and vision for revolutionizing artist financing in Web3.
