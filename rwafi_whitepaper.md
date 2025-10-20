@@ -1,119 +1,105 @@
-# RWA 收益協議白皮書
+# RWA Yield Protocol Whitepaper
+Version 1.0
+Date: October 20, 2025
+Authors: TycheFi Labs
 
-```yaml
-版本：1.0
-日期：2025年10月20日
-作者：TycheFi Labs
-```
+## Abstract
+ArtistYield RWA Protocol is a groundbreaking DeFi platform that bridges the gap between the creative arts industry and blockchain technology. By tokenizing artists' future revenue streams as Real World Assets (RWAs), the protocol enables decentralized funding for artists while providing investors with secure, yield-generating opportunities. Leveraging the platform's native SING token for fundraising and issuing GNIS credentials for participation, ArtistYield ensures transparent revenue sharing, minimum yield guarantees, and deflationary mechanics. This whitepaper outlines the protocol's architecture, tokenomics, and vision for revolutionizing artist financing in Web3.
+linkedin.comThe Art of Tokenization: Revolutionizing Art Ownership
 
-## 摘要
-ArtistYield RWA 協議是一個開創性的 DeFi 平台，旨在縮小創意藝術產業與區塊鏈技術之間的鴻溝。透過將藝人未來收益流代幣化為真實世界資產（Real World Assets, RWAs），該協議為藝人提供去中心化融資管道，同時為投資者帶來安全且具收益的投資機會。平台利用原生代幣 SING 進行募資，並發行 GNIS 憑證作為參與憑證，確保收益分配透明、最低收益保障與通縮機制。本白皮書概述了協議的架構、代幣經濟學，以及在 Web3 中革新藝人融資的願景。
-linkedin.com
-代幣化的藝術：革新藝術所有權
+### 1. Introduction
+The entertainment and arts sector has long suffered from opaque funding models, intermediary dominance, and limited access to capital for emerging talents. Traditional revenue streams—such as royalties, tours, and merchandise—are often delayed or diluted by centralized entities. ArtistYield introduces a decentralized alternative: tokenizing artist revenue as RWAs over a fixed term (e.g., 10 years), allowing global investors to fund creators directly via blockchain.
+Built on Ethereum-compatible chains, the protocol uses smart contracts for fundraising, yield distribution, and governance. Key features include a 60% fundraising threshold with platform backstop, staking rewards based on coin age, and a guarantor system ensuring at least 5% annual yields. This empowers artists to access capital without equity dilution while offering investors exposure to real-world yields with downside protection.
+antiersolutions.comMajor Benefits of Tokenization of Art
 
-### 1. 引言
-娛樂與藝術產業長期受制於不透明的融資模式、中介機構主導，以及新興人才難以取得資金的困境。傳統收益來源——如版稅、巡演與周邊商品——常因中心化實體而延遲或被稀釋。ArtistYield 推出去中心化解決方案：將藝人收益代幣化為 RWA，設定固定期限（例如 10 年），讓全球投資者可透過區塊鏈直接資助創作者。
-該協議建構於相容以太坊的鏈上，運用智慧合約處理募資、收益分配與治理。主要功能包括：60% 募資門檻並由平台補足、基於幣齡的質押獎勵，以及擔保人機制確保每年至少 5% 的收益。此模式讓藝人得以在不稀釋股權的情況下取得資金，同時為投資者提供具下行保護的真實世界收益曝險。
-antiersolutions.com
-藝術代幣化的主要優勢
+### 2. Problem Statement
+Artists face significant barriers in securing funding:
 
-### 2. 問題陳述
-藝人在取得資金時面臨重大障礙：
+High Intermediation Costs: Managers, labels, and platforms take large cuts, leaving creators with fractions of their earnings.
+Liquidity Gaps: Future revenues are illiquid, making it hard to monetize without loans or advances carrying high interest.
+Investor Risks: Traditional investments in arts lack transparency, with no real-time revenue tracking or guaranteed returns.
+Global Accessibility: Emerging artists in underserved regions struggle to attract international capital.
 
-高中介成本：經紀公司、唱片公司與平台抽取高額分潤，創作者僅獲微薄收益。
-流動性缺口：未來收益缺乏流動性，難以變現，僅能透過高利貸款或預付款。
-投資者風險：傳統藝術投資缺乏透明度，無即時收益追蹤或保證回報。
-全球可及性：新興地區的藝人難以吸引國際資本。
+DeFi has transformed finance, but RWAs in creative industries remain underexplored. ArtistYield addresses this by creating a secure, on-chain ecosystem for artist-backed investments.
 
-DeFi 已徹底改變金融，但創意產業中的 RWA 仍未被充分開發。ArtistYield 透過建構安全、鏈上的藝人支持投資生態系統來解決此問題。
+### 3. Solution Overview
+ArtistYield tokenizes an artist's projected revenue (e.g., from streams, concerts, NFTs) as an RWA. Artists and the platform co-launch fundraisers using SING tokens, issuing GNIS as investment credentials. Investors stake GNIS to earn 10% of artist revenues, distributed via smart contracts. A guarantor role ensures minimum yields, backed by collateral.
+Key Components
 
-### 3. 解決方案概述
-ArtistYield 將藝人預期收益（例如串流、演唱會、NFT）代幣化為 RWA。藝人與平台共同發起募資活動，使用 SING 代幣進行，發行 GNIS 作為投資憑證。投資者質押 GNIS 以獲得藝人收益的 10%，由智慧合約自動分配。擔保人角色確保最低收益，並以質押擔保品作為後盾。
-核心組成
+Fundraising Mechanism: 2-week campaigns targeting 100,000 SING, with a 60% minimum threshold.
+Yield Distribution: 80% to stakers (pro-rata by coin age), 10% for GNIS burns, 10% to guarantors.
+Guarantee System: 5% annual minimum yield, covered by guarantor SING collateral.
+Multi-Sig Fund Control: Ensures accountable disbursement to artists.
 
-募資機制：為期 2 週，目標 100,000 SING，最低門檻 60%。
-收益分配：80% 給質押者（按幣齡比例分配）、10% 用於 GNIS 銷毀、10% 給擔保人。
-擔保系統：每年最低 5% 收益，由擔保人以 SING 質押品補足。
-多簽資金控制：確保資金依責任分配給藝人。
+This model democratizes funding, enhances liquidity, and aligns incentives between creators and investors.
 
-此模式實現融資民主化、提升流動性，並對齊創作者與投資者的激勵。
+### 4. Technical Architecture
+ArtistYield is deployed on Ethereum or Layer 2 solutions like Polygon for scalability. Core smart contracts handle:
 
-### 4. 技術架構
-ArtistYield 部署於以太坊或 Polygon 等 Layer 2 解決方案以提升擴展性。核心智慧合約包括：
+Fundraiser Contract: Manages deposits, thresholds, and GNIS minting.
+Staking Pool: Tracks coin age for fair yield allocation.
+Revenue Oracle: Integrates Chainlink for off-chain revenue feeds.
+Guarantor Contract: Enforces collateral formulas and annual payouts.
 
-募資合約：管理存款、門檻與 GNIS 鑄造。
-質押池：追蹤幣齡以公平分配收益。
-收益預言機：整合 Chainlink 接收鏈下收益數據。
-擔保人合約：執行擔保品公式與年度支付。
+Protocol Flowchart
+The following diagram illustrates the end-to-end process:
+gauntlet.xyzLevered RWA Strategy Flowchart
 
-協議流程圖
-下圖展示端到端流程：
-gauntlet.xyz
-槓桿 RWA 策略流程圖
+Fundraising Phase: Investors deposit SING, receive GNIS. If threshold met, funds lock in multi-sig.
+Disbursement: Artist requests funds via approved milestones.
+Revenue Ingestion: 10% of artist earnings converted to SING and deposited.
+Distribution: Split across yield pool, burns, and guarantors.
+Staking & Claims: GNIS stakers earn based on duration and amount.
+Annual Guarantee: Shortfalls covered by collateral slashing.
 
-募資階段：投資者存入 SING，獲得 GNIS。若達門檻，資金鎖入多簽。
-資金釋放：藝人依里程碑申請資金。
-收益接收：藝人收益的 10% 轉換為 SING 並存入。
-分配：分流至收益池、銷毀與擔保人。
-質押與領取：GNIS 質押者依持有時間與數量獲獎勵。
-年度擔保：收益不足由擔保品補足。
+Security measures include audits, oracle decentralization, and legal wrappers for RWA enforceability.
+medium.comRWA-based DeFi Protocol Structure
 
-安全措施包括審計、去中心化預言機與 RWA 執行的法律框架。
-medium.com
-基於 RWA 的 DeFi 協議結構
+### 5. Tokenomics
 
-### 5. 代幣經濟學
+- SING Token
 
-- SING 代幣
+Utility: Fundraising currency, guarantor collateral, revenue conversion.
+Supply: Platform-managed; used in multi-sig and pools.
+Economics: Injected by platform for thresholds; rewards guarantors.
 
-用途：募資貨幣、擔保品、收益轉換。
-供應：由平台管理，用於多簽與資金池。
-經濟模型：平台補足門檻；獎勵擔保人。
+- GNIS Token
 
+Type: ERC-20 credential, 1:1 backed by SING investments.
+Utility: Staking for yields; governance (future).
+Deflationary: 10% of revenues swapped and burned.
+Distribution: Minted to investors and platform during fundraising.
 
-- GNIS 代幣
+Total supply caps at fundraiser target (e.g., 100,000). Yields encourage long-term holding via coin age multipliers.
+blockchainbeach.comHow a Decentralized Music Ledger Works
+Revenue Allocation Table
 
-類型：ERC-20 憑證，與 SING 投資 1:1 掛鉤。
-用途：質押獲取收益；未來治理。
-通縮機制：10% 收益用於兌換並銷毀。
-分配：募資時鑄造給投資者與平台。
+ComponentAllocationPurposeRWA Yield Pool80%Rewards for GNIS stakers (coin age pro-rata)GNIS/SING Swap & Burn10%Deflates GNIS supply, increases valueGuarantor Rewards10%Replenishes collateral pool
 
+### 6. Guarantor Mechanism
+Guarantors (e.g., platform treasury) stake SING to back minimum 5% annual yields. Collateral requirement:
+Total Raised × 5% × (Term Years - Completed Years) / 2
+Example (100,000 SING, 10-year term):
 
-總供應量上限為募資目標（例如 100,000）。幣齡機制鼓勵長期持有。
-blockchainbeach.com
-去中心化音樂帳本運作原理
-收益分配表
+Year 1: 2,500 SING minimum.
+Shortfalls slashed and distributed; rewards replenish pool.
 
+This mitigates risk, ensuring investor confidence.
 
+### 7. Roadmap
 
+Q4 2025: Smart contract audits and testnet launch.
+Q1 2026: Mainnet deployment, first artist pilot.
+Q2 2026: Governance DAO activation, integrations with NFT platforms.
+Ongoing: Expand to more artists, Layer 2 optimizations.
 
-項目分配比例用途RWA 收益池80%獎勵 GNIS 質押者（按幣齡比例）GNIS/SING 兌換與銷毀10%通縮 GNIS 供應，提升價值擔保人獎勵10%補充擔保品池
+### 8. Risks and Mitigations
 
-### 6. 擔保人機制
-擔保人（例如平台金庫）質押 SING 以支持每年最低 5% 收益。擔保品需求公式：
-總募資金額 × 5% × (合約年限 - 已完成年限) / 2
-範例（100,000 SING，10 年期）：
+Oracle Failure: Use multiple oracles; fallback to manual verification.
+Artist Default: Legal contracts enforce revenue reporting; guarantor covers minimums.
+Market Volatility: SING pegged to stable assets; burns stabilize GNIS.
+Regulatory: Comply with RWA laws (e.g., SEC); consult legal experts.
 
-第 1 年：最低 2,500 SING。
-收益不足時削減擔保品並分配；獎勵用於補充池。
-
-此機制降低風險，增強投資者信心。
-
-### 7. 路線圖
-
-2025 年第 4 季：智慧合約審計與測試網上線。
-2026 年第 1 季：主網部署，首個藝人試點。
-2026 年第 2 季：啟動治理 DAO，整合 NFT 平台。
-持續進行：擴展更多藝人，優化 Layer 2 效能。
-
-### 8. 風險與緩解措施
-
-預言機失效：使用多重預言機；備援手動驗證。
-藝人違約：法律合約強制收益申報；擔保人補足最低收益。
-市場波動：SING 與穩定資產掛鉤；銷毀穩定 GNIS。
-監管風險：遵守 RWA 法規（如 SEC）；諮詢法律專家。
-
-### 9. 結論
-ArtistYield 在 Web3 中重新定義藝人與投資者關係，打造可持續的創意融資生態系統。透過結合 DeFi 創新與真實世界資產，我們開啟新的收益流並實現投資民主化。加入我們，一起建構去中心化藝術金融的未來。
-
-如有查詢：contact@tychefi.xyz
+### 9. Conclusion
+ArtistYield redefines artist-investor relationships in Web3, fostering a sustainable ecosystem for creative funding. By combining DeFi innovation with real-world assets, we unlock new revenue streams and democratize investment. Join us in building the future of decentralized arts finance.
+For inquiries: contact@artistyield.xyz
