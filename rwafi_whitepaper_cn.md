@@ -10,7 +10,8 @@ linkedin.comThe Art of Tokenization: Revolutionizing Art Ownership
 ### 1. Introduction
 The entertainment and arts sector has long suffered from opaque funding models, intermediary dominance, and limited access to capital for emerging talents. Traditional revenue streams—such as royalties, tours, and merchandise—are often delayed or diluted by centralized entities. ArtistYield introduces a decentralized alternative: tokenizing artist revenue as RWAs over a fixed term (e.g., 10 years), allowing global investors to fund creators directly via blockchain.
 Built on Ethereum-compatible chains, the protocol uses smart contracts for fundraising, yield distribution, and governance. Key features include a 60% fundraising threshold with platform backstop, staking rewards based on coin age, and a guarantor system ensuring at least 5% annual yields. This empowers artists to access capital without equity dilution while offering investors exposure to real-world yields with downside protection.
-antiersolutions.comMajor Benefits of Tokenization of Art
+antiersolutions.com
+Major Benefits of Tokenization of Art
 
 ### 2. Problem Statement
 Artists face significant barriers in securing funding:
@@ -56,49 +57,27 @@ Security measures include audits, oracle decentralization, and legal wrappers fo
 medium.comRWA-based DeFi Protocol Structure
 
 ### 5. Tokenomics
-SING Token
 
-Utility: Fundraising currency, guarantor collateral, revenue conversion.
-Supply: Platform-managed; used in multi-sig and pools.
-Economics: Injected by platform for thresholds; rewards guarantors.
+- SING Token
 
-GNIS Token
+  - Utility: Fundraising currency, guarantor collateral, revenue conversion.
+  - Supply: Platform-managed; used in multi-sig and pools.
+  - Economics: Injected by platform for thresholds; rewards guarantors.
 
-Type: ERC-20 credential, 1:1 backed by SING investments.
-Utility: Staking for yields; governance (future).
-Deflationary: 10% of revenues swapped and burned.
-Distribution: Minted to investors and platform during fundraising.
+- GNIS Token
+
+  - Type: ERC-20 credential, 1:1 backed by SING investments.
+  - Utility: Staking for yields; governance (future).
+  - Deflationary: 10% of revenues swapped and burned.
+  - Distribution: Minted to investors and platform during fundraising.
 
 Total supply caps at fundraiser target (e.g., 100,000). Yields encourage long-term holding via coin age multipliers.
 blockchainbeach.comHow a Decentralized Music Ledger Works
 Revenue Allocation Table
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ComponentAllocationPurposeRWA Yield Pool80%Rewards for GNIS stakers (coin age pro-rata)GNIS/SING Swap & Burn10%Deflates GNIS supply, increases valueGuarantor Rewards10%Replenishes collateral pool
-6. Guarantor Mechanism
+
+### 6. Guarantor Mechanism
 Guarantors (e.g., platform treasury) stake SING to back minimum 5% annual yields. Collateral requirement:
 Total Raised × 5% × (Term Years - Completed Years) / 2
 Example (100,000 SING, 10-year term):
@@ -107,20 +86,21 @@ Year 1: 2,500 SING minimum.
 Shortfalls slashed and distributed; rewards replenish pool.
 
 This mitigates risk, ensuring investor confidence.
-7. Roadmap
+### 7. Roadmap
 
 Q4 2025: Smart contract audits and testnet launch.
 Q1 2026: Mainnet deployment, first artist pilot.
 Q2 2026: Governance DAO activation, integrations with NFT platforms.
 Ongoing: Expand to more artists, Layer 2 optimizations.
 
-8. Risks and Mitigations
+### 8. Risks and Mitigations
 
 Oracle Failure: Use multiple oracles; fallback to manual verification.
 Artist Default: Legal contracts enforce revenue reporting; guarantor covers minimums.
 Market Volatility: SING pegged to stable assets; burns stabilize GNIS.
 Regulatory: Comply with RWA laws (e.g., SEC); consult legal experts.
 
-9. Conclusion
+### 9. Conclusion
 ArtistYield redefines artist-investor relationships in Web3, fostering a sustainable ecosystem for creative funding. By combining DeFi innovation with real-world assets, we unlock new revenue streams and democratize investment. Join us in building the future of decentralized arts finance.
-For inquiries: contact@artistyield.xyz
+
+For inquiries: contact@tychefi.xyz
