@@ -45,10 +45,10 @@ RWA Yield 部署的FullOn公链享有高性能、安全性、多链扩展性和�
 
 另外：提供开放式的预言机监管，让保证金可以及时补足到质押池里面分配。FullOn公链上提供的AMM Swap DEX提供 SING/GNIS 交易对，不仅提供广大投资人进行直接交易，也可以让平台收益的一部分用来回购燃烧 GNIS 代币。
 
-协议流程图
+**协议流程图**
+
 下图展示端到端流程：
-gauntlet.xyz
-杠杆 RWA 策略流程图
+<img width="60%" src="./resources/rwafi-workflow.png" />
 
 - 募资阶段：投资者存入 SING，获得 GNIS。若达门槛，资金锁入多签。
 - 资金释放：艺人依里程碑申请资金。
